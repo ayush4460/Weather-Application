@@ -42,12 +42,10 @@ const getWeatherDetails = (cityName, latitude, longitude) => {
             }
         });
 
-        // Clearing previous weather data
         cityInput.value = "";
         currentWeatherDiv.innerHTML = "";
         weatherCardsDiv.innerHTML = "";
 
-        // Creating weather cards and adding them to the DOM
         fiveDaysForecast.forEach((weatherItem, index) => {
             const html = createWeatherCard(cityName, weatherItem, index);
             if (index === 0) {
