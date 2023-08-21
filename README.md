@@ -19,8 +19,10 @@ The Weather App is a web application that provides users with real-time weather 
 
 ## How to Run
 
-To use the Weather App: [Click Here](https://main--elegant-vacherin-3384fa.netlify.app/)
+To use the Weather App: [Click Here](https://main--elegant-vacherin-3384fa.netlify.app/) <br>
+It would take 2-5 secs to load weather data after clicking "Search" or "Use Current Location" button.
 
-
+<br>
+<br>
 
 Created by Ayush Zala
